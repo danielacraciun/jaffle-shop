@@ -15,6 +15,7 @@ renamed as (
 
         ---------- text
         name as customer_name
+        --- test
 
     from source
 
