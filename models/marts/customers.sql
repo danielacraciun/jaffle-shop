@@ -24,7 +24,7 @@ customer_orders_summary as (
         sum(orders.subtotal) as lifetime_spend_pretax,
         sum(orders.tax_paid) as lifetime_tax_paid,
         sum(orders.order_total) as lifetime_spend
-
+--comment
     from orders
 
     group by 1
