@@ -25,7 +25,7 @@ renamed as (
         perishable as is_perishable_supply
 
     from source
-
+    where supply_cost < 0.1
 )
 
 select * from renamed
