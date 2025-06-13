@@ -1,7 +1,0 @@
-models:
-  - name: stg_customers #name1 of one of your parent's model here
-    description: Example model in the parent project
-    access: public
-  - name: stg_orders #name2 of one of your parent's model here
-    description: Another example model in the parent project
-    access: public
